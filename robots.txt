@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /blog/featured2/
+Disallow: /blog/featured3/
+Disallow: /blog/featured/
