@@ -14,3 +14,9 @@ AddOutputFilterByType DEFLATE image/gif
 AddOutputFilterByType DEFLATE image/jpeg
 AddOutputFilterByType DEFLATE image/svg+xml
 </IfModule>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^domain\.com$ [NC]
+RewriteRule ^(.*)$ http://domain.com/$1 [L,R=301]
+RewriteEngine On
+RewriteCond %{HTTPS} on
+RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI}
