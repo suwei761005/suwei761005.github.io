@@ -2,3 +2,6 @@ User-agent: *
 Disallow: /blog/featured2/
 Disallow: /blog/featured3/
 Disallow: /blog/featured/
+Disallow: /tags/宮崎駿/
+Disallow: /tags/科幻/
+Disallow: /categories/電影/
