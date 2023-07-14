@@ -7,3 +7,8 @@ Disallow: /tags/科幻/
 Disallow: /categories/電影/
 Disallow: /blog/atcafé6/
 Disallow: /page/2/
+Disallow: /tags/劇情
+Disallow: /tags/劇情/
+Disallow: /tags/宮崎駿
+Disallow: /categories/電影
+Disallow: /categories/動漫電影
